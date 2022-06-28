@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+  }
+
+
+body  {
+
+    padding: 0;
+
+    margin: 0;
+
+    background-image: url(../image/image.jpg);
+
+
+}
+
+#login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: var(--Sniglet-font);
+
+    
+
+}
+
+.card {
+
+    background-color: #fff;
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width:280px;
+
+    border-radius: 10px;
+
+}
+
+.card-header {
+
+
+    opacity: 0.8;
+
+    color: #630391;
+
+}
+
+.card-header2 {
+
+    padding-bottom: 20px;
+
+  
+
+    color: #6d6c6e;
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+
+    background-color: #fff;
+
+    display: block;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+
+}
+
+.card-content label {
+
+    color: #630391;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #630391;
+
+    outline: none;
+
+    color: #630391;
+
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding-top: 20px;
+
+}
+
+.card-footer .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #630391;
+
+    border:none;
+
+    color:#fff;
+
+    margin: 10px 0;
+
+    font-family: var(--Sniglet-font);
+
+    cursor: pointer;
+
+    
+
+}
+
+.card-footer a {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: #630391;
+
+    text-decoration: none;
+
+    font-family: var(--Sniglet-font);
+
+    cursor: pointer;
+
+}
